@@ -1,0 +1,235 @@
+:root {
+  font-family: system-ui, Arial, sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --color-principal: #4f46e5;
+  --color-oscuro: #1e1b4b;
+  --color-fondo: #f8fafc;
+  --color-texto: #1f2937;
+  --radio: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #a5b4fc;
+  outline-offset: 3px;
+}
+
+.contenedor {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.contenido-principal {
+  min-height: calc(100vh - 166px);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar {
+  background: var(--color-oscuro);
+  padding: 1rem 0;
+}
+
+.navbar__interior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.navbar nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.navbar nav a {
+  color: #c7d2fe;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+  color: white;
+}
+
+.hero {
+  margin: 0 0 2.5rem;
+  padding: 4rem 1rem;
+  border-radius: var(--radio);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.4rem;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.4rem;
+  border: 0;
+  border-radius: 999px;
+  background: white;
+  color: var(--color-principal);
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton--primario {
+  background: var(--color-principal);
+  color: white;
+}
+
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.tarjeta {
+  overflow: hidden;
+  padding-bottom: 1rem;
+  border-radius: var(--radio);
+  background: white;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 8%);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.tarjeta h3,
+.tarjeta p {
+  padding: 0.4rem 1rem 0;
+}
+
+.precio {
+  color: var(--color-principal);
+  font-weight: 700;
+}
+
+.pagina-titulo {
+  margin-bottom: 0.5rem;
+}
+
+.pagina-descripcion {
+  margin-bottom: 1rem;
+  color: #475569;
+}
+
+.buscador {
+  display: grid;
+  gap: 0.4rem;
+  max-width: 500px;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.buscador input,
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+}
+
+.formulario {
+  display: grid;
+  gap: 1rem;
+  max-width: 500px;
+  margin-top: 1.5rem;
+}
+
+.formulario button {
+  padding: 0.8rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--color-principal);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #4338ca;
+}
+
+.mensaje-ok {
+  margin-top: 1rem;
+  color: #047857;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 1.5rem 0;
+  background: var(--color-oscuro);
+  color: #c7d2fe;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .navbar__interior {
+    flex-direction: column;
+  }
+
+  .navbar nav {
+    justify-content: center;
+    gap: 0.5rem 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}

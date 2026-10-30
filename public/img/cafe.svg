@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f3e8d2"/>
+  <circle cx="200" cy="150" r="95" fill="#6b3f2a"/>
+  <path d="M225 64c-45 44-50 113-7 172M211 67c-7 50-3 111 11 164" fill="none" stroke="#d7a66e" stroke-linecap="round" stroke-width="10"/>
+  <text x="200" y="278" fill="#432818" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">CAFÉ ARTESANAL</text>
+</svg>

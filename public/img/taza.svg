@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e0e7ff"/>
+  <path d="M111 93h155v116a32 32 0 0 1-32 32h-91a32 32 0 0 1-32-32z" fill="#818cf8"/>
+  <path d="M266 119h29a35 35 0 0 1 0 70h-29" fill="none" stroke="#4f46e5" stroke-width="17"/>
+  <path d="M151 79c-10-16 12-21 2-38m43 38c-10-16 12-21 2-38" fill="none" stroke="#64748b" stroke-linecap="round" stroke-width="8"/>
+  <text x="200" y="278" fill="#312e81" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">TAZA DE CERÁMICA</text>
+</svg>

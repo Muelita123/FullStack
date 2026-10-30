@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#dbeafe"/>
+  <rect x="134" y="92" width="132" height="142" rx="14" fill="#bfdbfe" stroke="#475569" stroke-width="8"/>
+  <path d="M145 162h110v58H145z" fill="#7c4a2d"/>
+  <path d="M200 62v126m-30-126h60m-80 126h100m-50 0v45" fill="none" stroke="#334155" stroke-linecap="round" stroke-width="9"/>
+  <text x="200" y="278" fill="#1e3a8a" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">PRENSA FRANCESA</text>
+</svg>
